@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  background-color: #93c5fd;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.country-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 40%;
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  border-radius: 18px;
+}
+.country-capital {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.question-container {
+  display: flex;
+}
+.capital-select {
+  height: 19px;
+  width: 90px;
+  margin-top: 15px;
+}
+.option {
+  color: #1e293b;
+}
+.country {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
